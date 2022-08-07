@@ -38,3 +38,90 @@ h1 { padding-left: 1rem; }
 .nav-list a:hover::after {
     left: 0; width: 100%;
 }
+
+.animation {
+    height: 100vh;
+}
+
+/* swiper.css */
+
+.icon-container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+/*  */
+
+.animation h2 {
+    position: relative;
+    top: 250px;
+
+    font-size: 40px; color: #fff;
+    text-align: center;
+}
+
+.animation h2 span {
+    font-size: 40px;
+    color: orange;
+}
+
+.icon-slider {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 300px;
+}
+
+.icon-slider i {
+    font-size: 70px;
+    color: white;
+}
+
+.icon-slider span {
+    font-size: 15px;
+    color: white;
+}
+
+.icon-slider li {
+    width: 33%;
+    text-align: center;
+}
+
+/*  */
+
+.register-form {
+    margin: 20px auto;
+    background: rgba(255, 255, 255, .7);
+    width: 900px; height: 350px;
+
+    border-radius: 10px;
+}
+
+.register-form table {
+    display: flex;
+    justify-content: center; align-items: center;
+    padding: 30px 0;
+}
+
+.register-form td { padding: 10px; font-size: 16px;}
+.register-form td[rowspan="4"]{ font-size: 24px;}
+.register-form .btn { display: block; width: 50%; background-color: gray; color: white; text-align: center; margin: auto;
+    line-height: 50px;}
+
+.hide { display: none; }
+.block { display: block; }
