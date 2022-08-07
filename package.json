@@ -1,0 +1,27 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Front-End portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuficida/front-end.git"
+  },
+  "keywords": [
+    "front-end"
+  ],
+  "author": "stuficida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stuficida/front-end/issues"
+  },
+  "homepage": "https://github.com/stuficida/front-end#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "express": "^4.18.1"
+  }
+}
